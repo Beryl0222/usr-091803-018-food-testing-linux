@@ -6,7 +6,8 @@ import unittest
 from urllib.error import HTTPError
 from urllib.request import urlopen
 
-from service import Handler, SERVICE_ID, SERVICE_NAME, health_payload
+from foodtesting.service_identity import SERVICE_ID, SERVICE_NAME
+from service import Handler, health_payload
 
 
 class ServiceContractTest(unittest.TestCase):
